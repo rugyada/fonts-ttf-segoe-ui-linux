@@ -24,3 +24,4 @@ Segoe UI font for linux.
 %install
 mkdir -p %{buildroot}%{_datadir}/fonts/TTF/segoe-ui-linux
 install -Dm 644  *.ttf  %{buildroot}%{_datadir}/fonts/TTF/segoe-ui-linux/
+install -Dm 644 license.txt %{buildroot}%{_datadir}/fonts/TTF/segoe-ui-linux/
