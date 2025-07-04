@@ -12,7 +12,7 @@ BuildArch:	noarch
 Segoe UI font for linux.
 
 %files
-%dir %{_datadir}/fonts/TTF/segoe-ui-linux/
+#%dir %{_datadir}/fonts/TTF/segoe-ui-linux/
 %{_datadir}/fonts/TTF/segoe-ui-linux/*
 
 %prep
