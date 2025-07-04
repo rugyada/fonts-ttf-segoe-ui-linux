@@ -16,7 +16,7 @@ Segoe UI font for linux.
 %{_datadir}/fonts/TTF/segoe-ui-linux/*
 
 %prep
-%autosetup -p
+%autosetup -p 1
 
 %build
 #
